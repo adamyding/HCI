@@ -1,0 +1,28 @@
+Meeting Notes - Nov 13, 2026
+
+StudyChat
+- Look over different sessions or within the same session
+- Look at same-domain or similar-domain problems
+- Look in detail at the raw dataset
+- Annotation
+
+
+Framework to measure knowledge transfer. We need a dataset to evaluate how knowledge transfer works.
+
+Build a measurement to see: Can we evaluate or quantify knowledge transfer between 2 tasks, or within 1 long conversation? Can we measure knowledge transfer?
+
+End Goal: Propose a new objective way to measure how an LLM learns from users. Think about how to measure knowledge transfer to AI from clean chats, and as a session extends, how does AI know it has learned something from users?
+
+Propose a framework or benchmark, then collect data, or use an existing dataset to evaluate what we propose (whether it is a good way to measure it).
+
+Assuming AI has memory of previous sessions (previous conversations influence later ones), we can simulate the second half of a conversation with a different model. The AI then loses the first half of the conversation and is given a planned query. Compare the answers.
+
+Think about how to represent knowledge transfer and transfer it in a way that is quantifiable in text-based conversations.
+
+Concretize research questions and identify the core contribution or direction.
+
+Method 1
+Propose something theoretically and use existing data to evaluate our theory. Use the theory to evaluate datasets and get new data points about how transfer works.
+
+Method 2
+Empirically analyze the data and look at potential transfers that are happening. Based on that, think about how to quantify them and then create a new benchmark after collecting new data.
